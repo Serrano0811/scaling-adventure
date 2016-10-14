@@ -1,4 +1,10 @@
+/*
+| in this case we're using the http library, but, it 
+| can be handled in a numerous way , using nodejs, a 
+| raw TCP connection, etc.
+*/
 var http = require('http');
+
 
 var server = http.createServer(function (req, res) {
 	res.writeHead(200, {"content-Type": "text/plain"});
