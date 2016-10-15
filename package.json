@@ -1,0 +1,26 @@
+{
+  "name": "scaling-adventure",
+  "version": "1.0.0",
+  "description": "Using the MongoDB driver together with route handling and templates",
+  "main": "helloworldExpress.js",
+  "dependencies": {
+    "consolidate": "^0.14.1",
+    "express": "^4.14.0",
+    "mongodb": "^2.2.10",
+    "nunjucks": "^2.5.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Serrano0811/scaling-adventure.git"
+  },
+  "author": "Antonio Lopez Serrano <antonio.serrano0811@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Serrano0811/scaling-adventure/issues"
+  },
+  "homepage": "https://github.com/Serrano0811/scaling-adventure#readme"
+}
